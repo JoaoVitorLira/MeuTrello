@@ -60,3 +60,4 @@ function adicionarTarefa(event){
         novaTarefaElemento.addEventListener('dragend', finalizarArrasto);
     }
 }
+

@@ -17,7 +17,7 @@ a {
 }
 
 body{
-    background-color: crimson;
+    background-color: #06A77D;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -81,30 +81,15 @@ button{
     margin: 0 41px;
     font: 500 15px 'Poppins';
     border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: white;
-    color: #000;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
 
-.rodape {
-    color: #564946;
-    margin-top: 80px;
-    height: 230px;
-    background-color: #49D49D;
-}
-
-.trellinho {
-    text-align: center;
-    padding-top: 73px;
-    font: 600 26px sans-serif;
-}
-
-.trellao {
-    text-align: center;
-    font: 400 22px sans-serif;
-}
